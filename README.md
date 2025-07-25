@@ -26,7 +26,7 @@ The core philosophy of VeriPy is **"verify, then trust."** The server verifies c
 -   `uv` (for environment and package management). If you don't have it, install it via `pip`:
     ```bash
     pip install uv
-    ```-   `openssl` command-line tool for generating certificates.
+    ``
 
 ### 1. Installation
 
@@ -101,10 +101,10 @@ The module file must contain:
 1.  An optional `description` string variable.
 2.  An `async def execute(args_string: str)` function that performs the action and returns a string result.
 
-**Example: `./mods/hello.py`**```python
+**Example: `./mods/hello.py`**
 # ./mods/hello.py
 
-# A description that the client will see.
+```python
 description = "A simple module that says hello to a name."
 
 async def execute(args_string: str):
