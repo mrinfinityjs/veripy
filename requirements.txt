@@ -1,0 +1,5 @@
+# Dependencies for the VeriPy project
+# Install using: uv pip install -r requirements.txt
+
+cryptography
+watchdog
